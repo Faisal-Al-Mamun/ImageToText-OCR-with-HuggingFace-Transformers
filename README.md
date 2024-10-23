@@ -60,8 +60,8 @@ Replace /path/to/your/image.jpg with the path to the image file you want to proc
 API Response: The response will be returned in JSON format and will look something like this:
         ```{
             "ocr_result": "The extracted text from the image goes here."
-        }
-    ```
+        }```
+        
 Example of API Request:
 
 ```curl -X POST -F "image_file=@/path/to/image.jpg" http://localhost:5000/ocr```

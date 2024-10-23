@@ -46,21 +46,23 @@ The Flask API allows you to upload images via an HTTP request and receive OCR re
 1. **Start the Flask server**:
    ```bash
    python server.py
-
+   ```
 
 The server will run on http://localhost:5000 by default.
 
 Send a POST request with an image file to the /ocr endpoint:
 
 You can use tools like curl, Postman, or any API client to send the image. Here’s how to do it with curl:
-curl -X POST -F "image_file=@/path/to/your/image.jpg" http://localhost:5000/ocr
+    ```curl -X POST -F "image_file=@/path/to/your/image.jpg" http://localhost:5000/ocr
+    ```
 Replace /path/to/your/image.jpg with the path to the image file you want to process.
 
 API Response: The response will be returned in JSON format and will look something like this:
-```{
-    "ocr_result": "The extracted text from the image goes here."
-}```
-
+    ```{
+            "ocr_result": "The extracted text from the image goes here."
+        }
+    ```
 Example of API Request:
 
-curl -X POST -F "image_file=@/path/to/image.jpg" http://localhost:5000/ocr
+```curl -X POST -F "image_file=@/path/to/image.jpg" http://localhost:5000/ocr
+```

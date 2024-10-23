@@ -43,11 +43,11 @@ def main():
     args = parser.parse_args()
 
     # Load model and tokenizer
-    print("Loading model and tokenizer...")
+    print("Loading Model and Tokenizer...")
     model, tokenizer = load_model_and_tokenizer()
 
     # Perform OCR
-    print(f"Performing OCR on image: {args.image_file}")
+    print(f"Performing OCR on Image: {args.image_file}")
     result = perform_ocr(model, tokenizer, args.image_file)
 
     # Output the result

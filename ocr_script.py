@@ -1,4 +1,3 @@
-# main.py
 from transformers import AutoModel, AutoTokenizer
 import torch
 import argparse

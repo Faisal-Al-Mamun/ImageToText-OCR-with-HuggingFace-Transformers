@@ -18,8 +18,8 @@ The project is optimized for running on GPUs with `float16` precision for effici
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/huggingface-ocr-project.git
-    cd huggingface-ocr-project
+    git clone https://github.com/Faisal-Al-Mamun/ImageToText-OCR-with-HuggingFace-Transformers.git
+    cd ImageToText-OCR-with-HuggingFace-Transformers
     ```
 
 2. Install the required dependencies:
